@@ -5,70 +5,93 @@ import { Heading } from "./Heading";
 import { Button } from "./Button";
 
 const data = [
-    { portfolio: "images/img_rectangle_6.png" },
-    { portfolio: "images/img_rectangle_6_293x463.png" },
-    { portfolio: "images/img_rectangle_6_1.png" },
-    { portfolio: "images/img_rectangle_6_2.png" },
-  ];
-function Projects() {
-  return (
-    <div className="flex flex-col">
-      <div className="mr-[203px] flex w-[64%] items-center self-end md:mr-0 md:w-full md:flex-col">
-        <div className="relative mb-[9px] h-[109px] flex-1 self-end pt-[7px] md:w-full md:flex-none md:self-stretch">
-          <Text
-            size="3xl"
-            as="p"
-            className="absolute bottom-0 left-[0.00px] top-0 my-auto h-max"
-          >
-            My Portfolio ️
-          </Text>
-          <Img
-            src="images/img_vector_black_900_01.svg"
-            alt="vector_seven"
-            className="absolute bottom-[-5px] left-[100px] m-auto h-[15px] w-[70%] "
-          />
-        </div>
-        <Img
-          src="images/img_frame_18.png"
-          alt="image_two"
-          className="h-[159px] w-[160px] object-cover md:w-full"
-        />
-      </div>
-      <div className="ml-[45px] mt-[55px] grid grid-cols-2 gap-12 md:ml-0 md:grid-cols-1">
-        {data.map((d, index) => (
-          <div
-            key={"gridfillone" + index}
-            className="relative h-[565px] w-full md:h-auto"
-          >
-            <div className="h-[536px] w-[93%] bg-white-A700_01" />
-            <div className="absolute bottom-0 left-0 right-0 top-0 m-auto h-[565px] w-full bg-[url(/public/images/img_group_7.svg)] bg-cover bg-no-repeat p-[53px] md:h-auto md:p-5">
-              <div className="mb-2 mt-[5px] flex flex-col gap-[31px]">
+    { 
+        portfolio: "images/img_rectangle_6.png",
+        title: "Portfolio design",
+        description: "UI design - User research - webflow develop",
+        link: "#"
+    },
+    { 
+      portfolio: "images/img_rectangle_6.png",
+      title: "Portfolio design",
+      description: "UI design - User research - webflow develop",
+      link: "#"
+  },
+  { 
+    portfolio: "images/img_rectangle_6.png",
+    title: "Portfolio design",
+    description: "UI design - User research - webflow develop",
+    link: "#"
+},
+{ 
+  portfolio: "images/img_rectangle_6.png",
+  title: "Portfolio design",
+  description: "UI design - User research - webflow develop",
+  link: "#"
+},
+    // ... add more projects here
+];
+
+const ProjectCard = ({ portfolio, title, description, link }) => (
+    <div className="relative h-[560px] w-full m-auto">
+        <div className="h-[536px] w-[80%] bg-white-A700_01 ml-[10%]" />
+        <div className="absolute bottom-0 left-0 right-0 top-0 m-auto h-full w-[85%] bg-[url(/public/images/img_group_7.svg)] bg-no-repeat p-[53px] md:h-auto md:p-5">
+            <div className=" flex flex-col gap-[31px]">
                 <Img
-                  src={d.portfolio}
-                  alt="portfolio"
-                  className="h-[293px] object-cover"
+                    src={portfolio}
+                    alt="portfolio"
+                    className="h-[265px] w-[475px]"
                 />
-                <div className="flex items-start justify-between gap-5 sm:flex-col">
-                  <div className="flex w-[76%] flex-col items-start gap-[9px] sm:w-full">
-                    <Heading as="h2">Portfolio design</Heading>
-                    <Text as="p">
-                      <>
-                        UI design - User research -<br />
-                        webflow develop
-                      </>
-                    </Text>
-                  </div>
-                  <Button size="xs" shape="square" className="w-[38px]">
-                    <Img src="images/img_arrow_left.svg" />
-                  </Button>
+                <div className="flex items-start justify-between w-[100%] gap-5 sm:flex-col">
+                    <div className="flex w-[70%] flex-col items-start gap-[9px] sm:w-full">
+                        <Heading as="h2">{title}</Heading>
+                        <Text as="p">
+                            <>{description}</>
+                        </Text>
+                    </div>
+                    <Button size="xs" shape="square" className="w-[38px]">
+                        <a href={link}>
+                            <Img src="images/img_arrow_left.svg" />
+                        </a>
+                    </Button>
                 </div>
-              </div>
             </div>
-          </div>
-        ))}
-      </div>
+        </div>
     </div>
-  );
+);
+
+function Projects() {
+    return (
+        <div className="flex flex-col m-10">
+            <div className="items-center self-center m-auto md:mr-0 md:w-full md:flex-col">
+                <div className="relative mb-[9px] h-[100px] flex-1 pt-[7px] md:w-full md:flex-none md:self-stretch">
+                    <Text
+                        size="3xl"
+                        as="p"
+                        className="m-auto justify-center items-center "
+                    >
+                        My Projects
+                    </Text>
+                    <Img
+                        src="images/img_vector_black_900_01.svg"
+                        alt="vector_seven"
+                        className="absolute bottom-[-9px] left-[120px] m-auto h-[15px] w-[70%] "
+                    />
+                </div>
+            </div>
+            <div className="mt-[50px] mx-9 grid grid-cols-2 gap-9  md:ml-0 md:grid-cols-1">
+                {data.map((project, index) => (
+                    <ProjectCard
+                        key={"project" + index}
+                        portfolio={project.portfolio}
+                        title={project.title}
+                        description={project.description}
+                        link={project.link}
+                    />
+                ))}
+            </div>
+        </div>
+    );
 }
 
-export default Projects;
+export default Projects
