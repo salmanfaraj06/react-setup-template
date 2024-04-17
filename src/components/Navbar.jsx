@@ -17,7 +17,7 @@ function Navbar() {
                     alt="close_one"
                     className="h-[49px] w-[48px]"
                   />
-                  <Text size="xl" as="p" className="!text-black-900">
+                  <Text size="xl" as="p" className="text-black-900">
                     Ruki
                   </Text>
                 </div>
@@ -25,19 +25,19 @@ function Navbar() {
                   <div className="h-[89px] w-[4px] bg-black-900_01 " />
                   <div className="relative h-[90px] flex-1 j">
                     <div className="self-center absolute bottom-0 left-0 right-0 top-0 ml-10 flex h-max w-full items-center justify-between ">
-                      <Text as="p" className="self-center !text-black-900">
+                      <Text as="p" className="self-center text-black-900">
                         About //
                       </Text>
                       <div className="relative h-[31px] w-[29%] self-center md:h-auto">
                         <div className="mb-1.5 ml-0.5 h-[10px] w-[85%] md:ml-0" />
                         <Text
                           as="p"
-                          className="absolute bottom-0 left-0 right-0 top-0 m-auto h-max w-max !text-black-900"
+                          className="absolute bottom-0 left-0 right-0 top-0 m-auto h-max w-max text-black-900"
                         >
                           Portfolio
                         </Text>
                       </div>
-                      <Text as="p" className=" !text-black-900">
+                      <Text as="p" className=" text-black-900">
                         Contact Me
                       </Text>
                     </div>
@@ -58,7 +58,7 @@ function Navbar() {
           </div>
         </div>
       </div>
-    <div className="w-full border-[5px] border-solid border-black-900_01"/>
+    <div className="w-full border-[4px] border-solid border-black-900_01"/>
     </>
   );
 }

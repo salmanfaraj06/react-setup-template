@@ -4,7 +4,7 @@ import { Img } from "./Img";
 import { Text } from "./Text";
 
 const SkillItem = ({ title }) => (
-  <Text size="2xl" as="p" className="text-white-A700_01 mx-7">
+  <Text size="2xl" as="p" className="mx-7 text-white-A700_01">
     {title}
   </Text>
 );
