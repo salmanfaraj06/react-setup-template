@@ -6,10 +6,11 @@ import { Button } from "./Button";
 
 function Hero() {
   return (
-    <div className="mx-auto mt-[100px] w-full max-w-[1250px] md:p-5">
-      <div className="relative z-[2] flex flex-col items-end pl-14 pr-[250px] md:px-5">
-        <div className="flex w-[34%] items-start md:w-full">
-          <div className="relative z-[3] mt-2 flex rotate-[-55deg] items-start">
+    <div className="mx-auto mt-10 w-full max-w-[1250px] flex flex-row md:flex-col gap-x-4">
+      {/* Left Column */}
+      <div className="flex-1 pr-7 mx-auto md:mx-0">
+        <div className="relative flex flex-col items-start md:items-center">
+          <div className="relative flex rotate-[-55deg] items-start md:hidden">
             <Img
               src="images/img_menu.svg"
               alt="menu_one"
@@ -26,53 +27,61 @@ function Hero() {
           <Img
             src="images/img_arrow_07.svg"
             alt="arrowseven_one"
-            className="relative ml-[-28px] h-[183px] w-[183px]"
+            className="relative h-[183px] w-[183px] md:hidden"
           />
-        </div>
-      </div>
-
-      <div className=" mt-[-35px] flex items-center justify-between gap-5 md:flex-col">
-        <div className="flex w-[50%] flex-col gap-[20px] md:w-full">
           <Img
-            src="images/img_frame_14.svg"
-            alt="image"
-            className="h-[230px] w-[200px]"
-          />
-          <div className="relative h-[180px] md:h-auto">
-            <div className="mb-[19px] mr-[25px] h-[44px] w-[55%] md:mr-0" />
-            <Text
-    size="3xl"
-    as="p"
-    className="absolute bottom-0 left-0 right-0 top-0 m-auto h-max w-full"
->
-    <>
-        I design ✍️ top
-        <br />
-        notch <span className="bg-amber-300">websites</span>
-    </>
-</Text>
-          </div>
-          <div className="relative h-[140px] w-[58%] pt-6 sm:pt-5">
-            <Button
-              color="light_blue_100"
-              size="md"
-              shape="round"
-              className="absolute left-[0.00px] top-[20px] m-auto min-w-[291px] border-8 border-solid border-black-900_01 font-bold sm:px-5"
-            >
-              Download CV
-            </Button>
-            <Img
-              src="images/img_clock.svg"
-              alt="clock_one"
-              className="absolute bottom-[0] right-[0] m-auto h-[66px] w-[26%] object-fill"
-            />
-          </div>
-        </div>
-        <Img
           src="images/hero-frame.png"
           alt="image_one"
-          className="h-[540px] w-[500px] "
+          className=" h-[540px] w-[500px] "
         />
+        </div>
+        
+      </div>
+
+      {/* Right Column */}
+      <div className="flex-1 mx-auto md:mx-7">
+        <Img
+          src="images/pink.png"
+          alt="frame_one"
+          className="md:hidden"
+        />
+        <Text size="2xl" className="my-4">
+          Hello! I’m Rukaiya
+        </Text>
+        <Text size="s" className="mb-3 text-justify">
+          A passionate UI/UX designer with a knack for creating intuitive and
+          visually appealing digital experiences. With a keen eye for detail and
+          a love for problem-solving, I thrive on turning complex concepts into
+          simple and elegant designs that delight users.
+        </Text>
+        <Text size="s" className="mb-3 text-justify">
+          My journey into the world of design began [mention how you got started
+          or what sparked your interest in design]. Since then, I've been on a
+          mission to continuously hone my craft and stay updated with the latest
+          design trends and technologies.
+        </Text>
+        <Text size="s" className="mb-7 text-justify">
+          What sets me apart as a designer is my ability to empathize with users
+          and understand their needs and frustrations. Whether it's crafting
+          wireframes, prototyping interactions, or conducting user research, I
+          always keep the end-user in mind throughout the design process to
+          create solutions that are both functional and delightful.
+        </Text>
+        <div className="flex justify-between">
+          <Button
+            color="light_blue_100"
+            size="md"
+            shape="round"
+            className="bg-light_blue_100 min-w-[291px] border-8 border-solid border-black-900_01 font-bold sm:px-5"
+          >
+            Download CV
+          </Button>
+          <Img
+            src="images/img_clock.svg"
+            alt="clock_one"
+            className="h-[66px] w-[26%] object-fill"
+          />
+        </div>
       </div>
     </div>
   );

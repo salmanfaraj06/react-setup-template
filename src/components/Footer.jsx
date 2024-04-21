@@ -10,7 +10,7 @@ function Footer() {
         <div className="flex">
           <div className="flex items-center gap-[15px]">
             <Img
-              src="images/img_close.svg"
+              src="images/Vector.png"
               alt="close_five"
               className="h-[49px] w-[48px]"
             />
