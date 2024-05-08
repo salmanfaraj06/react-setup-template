@@ -8,9 +8,9 @@ function Hero() {
   return (
     <div className="mx-auto mt-10 w-full max-w-[1250px] flex flex-row md:flex-col gap-x-4">
       {/* Left Column */}
-      <div className="flex-1 pr-7 mx-auto md:mx-0">
+      <div className="flex-1 pr-7 md:pr-2 md:pl-2 mx-auto md:mx-0">
         <div className="relative flex flex-col items-start md:items-center">
-          <div className="relative flex rotate-[-55deg] items-start md:hidden">
+          <div className=" relative flex rotate-[-55deg] items-start md:hidden">
             <Img
               src="images/img_menu.svg"
               alt="menu_one"
@@ -32,7 +32,7 @@ function Hero() {
           <Img
             src="images/hero-frame.png"
             alt="image_one"
-            className=" h-[540px] w-[500px] "
+            className=" h-[540px] w-[500px]"
           />
         </div>
       </div>
