@@ -79,7 +79,7 @@ function Navbar() {
               Work
             </Text>
           </Link>
-          <Link to="/contact">
+          <Link to="#contact">
             <Text
               className={`text-black-900 ${
                 activeLink === "/contact" ? "bg-amber-300" : ""
