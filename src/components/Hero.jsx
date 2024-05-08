@@ -30,21 +30,16 @@ function Hero() {
             className="relative h-[183px] w-[183px] md:hidden"
           />
           <Img
-          src="images/hero-frame.png"
-          alt="image_one"
-          className=" h-[540px] w-[500px] "
-        />
+            src="images/hero-frame.png"
+            alt="image_one"
+            className=" h-[540px] w-[500px] "
+          />
         </div>
-        
       </div>
 
       {/* Right Column */}
       <div className="flex-1 mx-auto md:mx-7">
-        <Img
-          src="images/pink.png"
-          alt="frame_one"
-          className="md:hidden"
-        />
+        <Img src="images/pink.png" alt="frame_one" className="md:hidden" />
         <Text size="2xl" className="my-4">
           Hello! I’m Rukaiya
         </Text>
@@ -67,19 +62,19 @@ function Hero() {
           always keep the end-user in mind throughout the design process to
           create solutions that are both functional and delightful.
         </Text>
-        <div className="flex justify-between">
+        <div className="flex justify-between py-9">
           <Button
             color="light_blue_100"
             size="md"
             shape="round"
-            className="bg-light_blue_100 min-w-[291px] border-8 border-solid border-black-900_01 font-bold sm:px-5"
+            className="bg-light_blue_100 w-1/2 sm:min-w-[200px] border-8 border-solid border-black-900_01 font-bold sm:text-lg"
           >
             Download CV
           </Button>
           <Img
             src="images/img_clock.svg"
             alt="clock_one"
-            className="h-[66px] w-[26%] object-fill"
+            className="h-[66px] w-[26%] sm:w-[18%] object-fill"
           />
         </div>
       </div>

@@ -8,7 +8,7 @@ import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Projects from "./components/Projects";
-import Hobbies from "./components/Hobbies";
+
 
 function App() {
   return (
@@ -25,7 +25,7 @@ function App() {
           <Navbar />
           <Routes>
             <Route path="/" element={<><HeroMain /><Skills /><Projects /><Contact /></>} />
-            <Route path="/about" element={<><Hero /><Hobbies /></>} />
+            <Route path="/about" element={<><Hero /></>} />
           </Routes>
           <Footer />
         </div>

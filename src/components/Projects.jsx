@@ -70,7 +70,7 @@ function Projects() {
         <Img
           src="images/img_vector_black_900_01.svg"
           alt="vector_seven"
-          className="h-3 w-full max-w-[120px]"
+          className="h-4 w-full"
         />
       </div>
       <div className="grid grid-cols-2 gap-10 md:grid-cols-2 md:gap-6">
