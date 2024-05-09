@@ -64,15 +64,6 @@ function Navbar() {
             isMenuOpen ? "hidden" : "block"
           }`}
         >
-          <Link to="/about">
-            <Text
-              className={`text-black-900 ${
-                activeLink === "/about" ? "bg-amber-300" : ""
-              }`}
-            >
-              About
-            </Text>
-          </Link>
           <Link to="/">
             <Text
               className={`text-black-900 ${
@@ -80,6 +71,15 @@ function Navbar() {
               }`}
             >
               Work
+            </Text>
+          </Link>
+          <Link to="/about">
+            <Text
+              className={`text-black-900 ${
+                activeLink === "/about" ? "bg-amber-300" : ""
+              }`}
+            >
+              About
             </Text>
           </Link>
           <ScrollLink

@@ -5,7 +5,7 @@ import { Button } from "./Button";
 
 function HeroMain() {
   return (
-    <div className="mx-auto mt-[100px] w-full max-w-[1250px] text-center">
+    <div className="mx-auto mt-[100px] w-full max-w-[80%] text-center">
       <Img
         src="images/img_frame_14.svg"
         alt="image"
@@ -22,7 +22,7 @@ function HeroMain() {
         <br />
         one pixel (and line of code) at a time.
       </Text>
-      <div className="flex justify-center items-center mb-8">
+      <div className="flex justify-center items-center">
         <Button
           color="light_blue_100"
           size="md"
@@ -34,7 +34,7 @@ function HeroMain() {
         <Img
           src="images/img_clock.svg"
           alt="clock"
-          className="ml-4 h-16 w-16 "
+          className="ml-4 mt-10 h-16 w-16 "
         />
       </div>
     </div>
