@@ -14,8 +14,9 @@ function HeroMain() {
       <Text size="3xl" as="p" className="mb-4 text-white">
         Hi there! My name is{" "}
         <span className="whitespace-nowrap">
-          <span className="bg-amber-300">Rukaiya</span> Nishfan
+          <span className="bg-amber-300">Rukaiya</span> 
         </span>
+        {" "}Nishfan
       </Text>
       <Text size="md" as="p" className="mb-8 text-white">
         Turning great designs into functional realities,
@@ -27,14 +28,14 @@ function HeroMain() {
           color="light_blue_100"
           size="md"
           shape="round"
-          className="bg-light_blue_100 min-w-[291px] border-8 border-solid border-black-900_01 font-bold sm:px-5"
+          className=" w-[291px] border-8 border-solid border-black-900_01 font-bold md:h-[70px] md:px-[10px] md:text-[20px] sm:h-[60px] sm:px-[10px] sm:text-[16px] "
         >
           Read More
         </Button>
         <Img
           src="images/img_clock.svg"
           alt="clock"
-          className="ml-4 mt-10 h-16 w-16 "
+          className="ml-4 mt-10 h-16 w-16 sm:w-10 sm:h-10 md:w-14 md:h-14"
         />
       </div>
     </div>

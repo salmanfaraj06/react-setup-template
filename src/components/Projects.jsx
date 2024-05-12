@@ -64,9 +64,10 @@ const data = [
 
 function Projects() {
   return (
+
     <div className="flex flex-col items-center m-10">
       <div className="mb-4">
-        <Text size="3xl" as="p">
+        <Text  size="mypro" as="p">
           My Projects
         </Text>
         <Img
@@ -77,9 +78,6 @@ function Projects() {
       </div>
 
       <div className="grid grid-cols-2 gap-10 md:grid-cols-1 md:gap-6">
-     
-
-
         {data.map((project, index) => (
           <ProjectsArea
             key={"project" + index}
