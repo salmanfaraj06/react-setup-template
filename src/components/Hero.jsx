@@ -38,7 +38,7 @@ function Hero() {
       {/* Right Column */}
       <div className="flex-1 mx-auto md:mx-7">
         <Img src="images/pink.png" alt="frame_one" className="md:hidden" />
-        <Text size="2xl" className="my-4 md:text-4xl sm:text-2xl">
+        <Text size="2xl" className="my-4 md:text-4xl sm:text-[29px]">
           <span className="whitespace-nowrap">Hello! I'm </span>
           <span className="relative inline-block z-0">
             Rukaiya

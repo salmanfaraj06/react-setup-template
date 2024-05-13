@@ -8,6 +8,7 @@ import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Projects from "./components/Projects";
+import Achievements from "components/Achievements";
 
 
 function App() {
@@ -25,7 +26,7 @@ function App() {
           <Navbar />
           <Routes>
             <Route path="/" element={<><HeroMain /><Skills /><Projects /><Contact /></>} />
-            <Route path="/about" element={<><Hero /></>} />
+            <Route path="/about" element={<><Hero /><Achievements/></>} />
           </Routes>
           <Footer />
         </div>

@@ -23,7 +23,7 @@ function Footer() {
         <Text size="lg" as="p" className="text-center !font-medium">
           Portfolio 2024
         </Text>
-        <div className="flex justify-between gap-5 md:w-full">
+        <div className="flex justify-between md:justify-center gap-5 md:w-full">
           <Socials/>
         </div>
       </div>

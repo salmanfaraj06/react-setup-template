@@ -2,16 +2,25 @@ import React from "react";
 import { Img } from "./Img";
 import { Text } from "./Text";
 import ProjectsArea from "./ProjectsArea";
+import LazyLoad from "react-lazyload";
 
 const data = [
+  
   {
-    portfolio: "images/thumbnails/beepure.png",
+    portfolio: "images/thumbnails/movematee.png",
     title: "Portfolio design",
     description: "UI design - User research - webflow develop",
     link: "#",
   },
   {
-    portfolio: "images/thumbnails/movematee.png",
+    portfolio: "images/thumbnails/IX-23.png",
+    title: "IX-23 designathon",
+    description: "UI design - User research - webflow develop",
+    link: "#",
+  },
+
+  {
+    portfolio: "images/thumbnails/beepure.png",
     title: "Portfolio design",
     description: "UI design - User research - webflow develop",
     link: "#",
@@ -37,14 +46,11 @@ const data = [
   // ... add more projects here
 ];
 
-
-
 function Projects() {
   return (
-
     <div className="flex flex-col items-center m-10">
       <div className="mb-10">
-        <Text  size="mypro" as="p">
+        <Text size="mypro" as="p">
           My Projects
         </Text>
         <Img
@@ -54,15 +60,16 @@ function Projects() {
         />
       </div>
 
-      <div className="grid grid-cols-2 gap-12 md:grid-cols-1 md:gap-10 gap-x-19 ">
+      <div className="grid grid-cols-2 gap-12 md:grid-cols-1 md:gap-10 gap-x-19">
         {data.map((project, index) => (
-          <ProjectsArea
-            key={"project" + index}
-            portfolio={project.portfolio}
-            title={project.title}
-            description={project.description}
-            link={project.link}
-          />
+          <LazyLoad key={index} height={200} offset={100}>
+            <ProjectsArea
+              portfolio={project.portfolio}
+              title={project.title}
+              description={project.description}
+              link={project.link}
+            />
+          </LazyLoad>
         ))}
       </div>
     </div>
