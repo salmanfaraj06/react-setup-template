@@ -9,7 +9,7 @@ function HeroMain() {
       <Img
         src="images/img_frame_14.svg"
         alt="image"
-        className="mx-auto h-[190px] w-[160px] md:w-[100px]"
+        className="mx-auto h-[200px] w-[160px] md:w-[110px] sm:h-[100px] sm:w-[80px]"
       />
       <Text size="3xl" as="p" className="mb-4 text-white sm:px-5 text-center md:text-[48px] font-bold sm:text-[36px]">
         Hi there! My name is{" "}
