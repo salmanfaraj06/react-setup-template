@@ -34,7 +34,7 @@ function Contact() {
             <span className=" font-extrabold italic">me</span>.
           </Text>
 
-          <div className="flex justify-center items-center mt-10 sm:my-5">
+          <div className="flex justify-center items-center my-10 sm:my-5">
           <a href="mailto:rukaiyanishfan@gmail.com">
             <Button
               color="light_blue_100"
@@ -51,7 +51,6 @@ function Contact() {
               className="mt-10 h-16 w-16 sm:hidden md:w-14 md:h-14 "
             />
           </div>
-          <Socials/>
         </div>
       </div>
     </div>
