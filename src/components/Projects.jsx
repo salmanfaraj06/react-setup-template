@@ -20,25 +20,25 @@ const data = [
 
   {
     portfolio: "images/thumbnails/beepure.png",
-    title: "Portfolio design",
+    title: "beePure",
     description: "UI design - User research - webflow develop",
     link: "#",
   },
   {
     portfolio: "images/thumbnails/Rescufy.png",
-    title: "Portfolio design",
+    title: "Rescufy",
     description: "UI design - User research - webflow develop",
     link: "#",
   },
   {
     portfolio: "images/thumbnails/ticketMate.png",
-    title: "Portfolio design",
+    title: "ticketMate",
     description: "UI design - User research - host develop lorem10 efwugwuhwg ",
     link: "#",
   },
   {
     portfolio: "images/thumbnails/spaceOdessey.png",
-    title: "Portfolio design",
+    title: "Space Odessey",
     description: "UI design - User research - host develop lorem10 efwugwuhwg ",
     link: "#",
   },
