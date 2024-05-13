@@ -7,7 +7,7 @@ import Socials from "./Socials";
 
 function Hero() {
   return (
-    <div className="mx-auto mt-10 w-full max-w-[1250px] flex flex-row md:flex-col gap-x-4">
+    <div className="mx-auto my-12 w-full max-w-[1250px] flex flex-row md:flex-col gap-x-4">
       {/* Left Column */}
       <div className="flex-1 pr-7 md:pr-2 md:pl-2 mx-auto md:mx-0">
         <div className="relative flex flex-col items-start md:items-center">

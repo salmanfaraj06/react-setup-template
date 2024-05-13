@@ -103,6 +103,7 @@ function Navbar() {
           </ScrollLink>
         </div>
       </div>
+      <div className="h-[6px] w-full self-stretch bg-black-900_01" />
     </div>
   );
 }
