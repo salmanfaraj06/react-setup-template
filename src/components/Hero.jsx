@@ -55,19 +55,19 @@ function Hero() {
           mission to continuously hone my craft and stay updated with the latest
           design trends and technologies.
         </Text>
-        <div className="flex justify-between py-9">
-          <Button
-            color="light_blue_100"
-            size="md"
-            shape="round"
-            className="bg-light_blue_100 w-1/2 sm:min-w-[200px] border-8 border-solid border-black-900_01 font-bold sm:text-lg"
-          >
-            Download CV
-          </Button>
+        <div className="flex justify-start items-center my-10">
+            <Button
+              color="light_blue_100"
+              size="md"
+              shape="round"
+              className=" border-8 border-solid border-black-900_01 font-bold md:h-[70px] md:px-[50px] md:text-[20px] sm:h-[60px] sm:px-[10px] sm:text-[16px] "
+            >
+              Download CV
+            </Button>
           <Img
             src="images/img_clock.svg"
-            alt="clock_one"
-            className="h-[66px] w-[26%] sm:w-[18%] object-fill"
+            alt="clock"
+            className="mt-10 h-16 w-16 sm:hidden md:w-14 md:h-14 "
           />
         </div>
       </div>
