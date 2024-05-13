@@ -10,10 +10,10 @@ function Footer() {
         <Img
           src="images/Vector.png"
           alt="close_five"
-          className="h-[49px] w-[48px]"
+          className="h-[44px]"
         />
-        <Text size="2xl" as="p" className="text-black-900">
-          ukaiya
+        <Text size="xl" as="p" className="text-black-900 font-extrabold">
+          ukaiya..
         </Text>
       </div>
     </footer>
