@@ -11,7 +11,7 @@ const data = [
     link: "#",
   },
   {
-    portfolio: "images/thumbnails/moveMate.png",
+    portfolio: "images/thumbnails/movemate.png",
     title: "Portfolio design",
     description: "UI design - User research - webflow develop",
     link: "#",
