@@ -26,7 +26,7 @@ function Contact() {
           <Text
             size="lg"
             as="p"
-            className="mt-4 px-3 text-center sm:text-[17px] md:text-[22px] "
+            className="mt-4 px-3 text-center sm:text-[14px] md:text-[22px] "
           >
             Thank you for your interest in my work. If you have any questions or
             comments, please contact{" "}
@@ -39,7 +39,7 @@ function Contact() {
               color="light_blue_100"
               size="md"
               shape="round"
-              className=" border-8 border-solid border-black-900_01 font-bold md:h-[70px] md:px-[50px] md:text-[20px] sm:h-[60px] sm:px-[10px] sm:text-[16px] "
+              className=" border-8 md:border-4 border-solid border-black-900_01 font-bold md:h-[70px] md:px-[50px] md:text-[20px] sm:h-[50px] sm:px-[10px] sm:text-[14px] "
             >
               Send a Message
             </Button>
