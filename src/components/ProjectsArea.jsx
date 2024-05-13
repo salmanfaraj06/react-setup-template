@@ -10,7 +10,7 @@ const ProjectsArea = ({ portfolio, title, description, link }) => {
                     <img src={portfolio} alt='portfolio' className='w-full h-auto max-h-[210px] md:max-h-[200px] mb-4' />
                     <div className='h-full'>
                         <div className='flex items-center justify-between'>
-                            <Heading className='text-4xl md:text-[28px] sm:text-[18px] ' as="h2">{title}</Heading>{" "}
+                            <Text className='text-3xl md:text-2xl sm:text-lg font-bold' size='xl' as="h2">{title}</Text>{" "}
                             <Button size="xs" shape="square" className="w-10 h-10 sm:w-5 sm:h-5 md:w-7 md:h-7">
                                 <a href={link}>
                                     <img className="" src="images/img_arrow_left.svg" alt="arrow" />
