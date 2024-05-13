@@ -25,7 +25,7 @@ function Contact() {
             Let’s connect
           </Text>
           <Text
-            size="2xl"
+            size="lg"
             as="p"
             className="mt-4 px-3 text-center font-medium sm:text-xl md:text-2xl "
           >
