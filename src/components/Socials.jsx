@@ -9,7 +9,7 @@ const socialLinks = [
 ];
 
 const Socials = () => (
-  <div className="flex items-center my-7 space-x-4">
+  <div className="flex items-center my-7 space-x-8">
     <IconContext.Provider value={{ size: "2rem" }}>
       {socialLinks.map((social, index) => (
         <a href={social.link} target="_blank" rel="noopener noreferrer" key={index}>
