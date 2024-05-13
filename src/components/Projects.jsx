@@ -5,12 +5,11 @@ import ProjectsArea from "./ProjectsArea";
 import LazyLoad from "react-lazyload";
 
 const data = [
-  
   {
     portfolio: "images/thumbnails/movematee.png",
-    title: "Portfolio design",
+    title: "moveMate",
     description: "UI design - User research - webflow develop",
-    link: "#",
+    link: "https://www.behance.net/gallery/198496933/moveMate",
   },
   {
     portfolio: "images/thumbnails/IX-23.png",
