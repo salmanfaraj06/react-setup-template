@@ -19,27 +19,27 @@ function Contact() {
           <Text
             size="2xl"
             as="p"
-            className="md:text-center md:text-4xl sm:text-3xl"
+            className="md:text-center md:text-4xl sm:text-[22px]"
           >
             Let’s connect
           </Text>
           <Text
             size="lg"
             as="p"
-            className="mt-4 px-3 text-center sm:text-[14px] md:text-[22px] "
+            className="mt-4 px-3 text-center sm:text-[11px] md:text-[22px] "
           >
             Thank you for your interest in my work. If you have any questions or
             comments, please contact{" "}
-            <span className=" font-extrabold italic">me via email or phone</span>.
+            <span className=" font-extrabold italic">me</span>.
           </Text>
 
-          <div className="flex justify-center items-center my-10">
+          <div className="flex justify-center items-center my-10 sm:my-5">
           <a href="mailto:rukaiyanishfan@gmail.com">
             <Button
               color="light_blue_100"
               size="md"
               shape="round"
-              className=" border-8 md:border-4 border-solid border-black-900_01 font-bold md:h-[70px] md:px-[50px] md:text-[20px] sm:h-[50px] sm:px-[10px] sm:text-[14px] "
+              className=" border-8 md:border-4 border-solid border-black-900_01 font-bold md:h-[70px] md:px-[50px] md:text-[20px] sm:h-[40px] sm:px-[10px] sm:text-[14px] "
             >
               Send a Message
             </Button>

@@ -38,7 +38,7 @@ function HeroMain() {
           color="light_blue_100"
           size="md"
           shape="round"
-          className=" w-[291px] border-8 border-solid border-black-900_01 font-bold md:h-[70px] md:px-[10px] md:text-[20px] md:w-[180px] sm:h-[60px] sm:px-[10px] sm:text-[16px] "
+          className=" w-[290px] border-8 border-solid sm:border-4 ml-7 border-black-900_01 font-bold md:h-[70px] md:px-[10px] md:text-[20px] md:w-[180px] sm:h-[60px]  sm:text-[16px] "
         >
           Read More
         </Button>

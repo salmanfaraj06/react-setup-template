@@ -48,7 +48,7 @@ function Projects() {
         />
       </div>
 
-      <div className="grid grid-cols-2 gap-12 sm:grid-cols-1 md:grid-cols-2 md:gap-10 gap-x-19 ">
+      <div className="grid grid-cols-2 gap-12 md:grid-cols-1 md:gap-10 gap-x-19 ">
         {data.map((project, index) => (
           <ProjectsArea
             key={"project" + index}
