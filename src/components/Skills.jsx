@@ -13,14 +13,14 @@ const Skills = () => {
 
   return (
     <>
-      <div>
+      <div className="flex justify-start">
         <Img
           src="images/img_vector.png"
           alt="vector_three"
-          className="h-[127px] w-[7%] object-fill"
+          className="h-[127px] md:h-[100px] sm:h-[80px]"
         />
       </div>
-      <div className="flex items-center justify-between bg-black-900_01 p-7 px-32 md:px-6  space-x-4">
+      <div className="flex flex-wrap justify-center p-6  bg-black-900_01 md:p-5 space-x-36 md:space-x-6 sm:space-x-4">
         {skills.map((skill, index) => (
           <SkillItem key={index} title={skill} />
         ))}

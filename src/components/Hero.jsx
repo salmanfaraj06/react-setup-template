@@ -16,11 +16,7 @@ function Hero() {
               alt="menu_one"
               className="mt-[-20px] h-[33px]"
             />
-            <Heading
-              size="s"
-              as="h1"
-              className="text-shadow-ts rotate-[16deg]"
-            >
+            <Heading size="s" as="h1" className="text-shadow-ts rotate-[16deg]">
               Rukaiya
             </Heading>
           </div>
@@ -40,12 +36,14 @@ function Hero() {
       {/* Right Column */}
       <div className="flex-1 mx-auto md:mx-7">
         <Img src="images/pink.png" alt="frame_one" className="md:hidden" />
-        <Text size="2xl" className="my-4">
-          <span className="whitespace-nowrap">
-            Hello! I'm <></> 
-          <span className="bg-amber-300">Rukaiya</span>
-        </span>
+        <Text size="2xl" className="my-4 relative z-10">
+          <span className="whitespace-nowrap">Hello! I'm </span>
+          <span className="relative inline-block z-0">
+            Rukaiya
+            <span className="bg-amber-300 absolute inset-0 top-8 h-1/3 w-full z-[-1]"></span>
+          </span>
         </Text>
+
         <Text size="xs" className="mb-3 text-justify">
           A passionate UI/UX designer with a knack for creating intuitive and
           visually appealing digital experiences. With a keen eye for detail and
