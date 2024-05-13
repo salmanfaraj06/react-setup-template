@@ -18,16 +18,16 @@ function Contact() {
       <div className="mt-[-63px] flex w-[75%] justify-center self-center rounded-sm border-[6px] border-solid border-black-900_01 bg-white-A700_01 p-2 shadow-sm sm:p-4 md:justify-center">
         <div className="mt-[29px] flex w-[90%] flex-col items-center md:w-full">
           <Text
-            size="xl"
+            size="2xl"
             as="p"
-            className="md:text-center md:text-4xl sm:text-[27px] font-medium"
+            className="md:text-center md:text-4xl sm:text-md font-medium"
           >
             Let’s connect
           </Text>
           <Text
             size="md"
             as="p"
-            className="mt-4 px-3 text-center sm:text-[15px] md:text-[22px] "
+            className="mt-4 px-3 text-center sm:text-sm md:text-[22px] "
           >
             Thank you for your interest in my work. If you have any questions or
             comments, please contact{" "}
