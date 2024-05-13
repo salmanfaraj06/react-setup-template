@@ -41,10 +41,10 @@ const Achievement = ({ image, title, description, link }) => (
     />
     <div className="p-4 flex flex-col justify-between">
       <div>
-        <Text size="lg" as="p" className="font-bold mb-2 md:text-lg text-2xl sm:text-[20px] sm:font-medium">
+        <Text size="lg" as="p" className="mb-2 md:text-lg text-2xl sm:text-[18px] font-medium">
           {title}
         </Text>
-        <Text size="sm" as="p" className="text-gray-600 mb-4 md:text-base text-lg">
+        <Text size="sm" as="p" className="text-gray-600 mb-4 md:text-base sm:text-sm text-lg">
           {description}
         </Text>
       </div>
