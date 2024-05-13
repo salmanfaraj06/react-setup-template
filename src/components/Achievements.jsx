@@ -41,15 +41,23 @@ const Achievement = ({ image, title, description, link }) => (
     />
     <div className="p-4 flex flex-col justify-between">
       <div>
-        <Text size="md" as="p" className="mb-2 md:text-xg text-4xl sm:text-[16px] font-medium">
+        <Text
+          size="md"
+          as="p"
+          className="mb-2 md:text-xg text-4xl sm:text-[16px] font-medium"
+        >
           {title}
         </Text>
-        <Text size="sm" as="p" className="text-gray-700 mb-4 md:text-base sm:text-sm text-lg">
+        <Text
+          size="sm"
+          as="p"
+          className="text-gray-700 mb-4 md:text-base sm:text-sm text-lg"
+        >
           {description}
         </Text>
       </div>
       {link && (
-        <a href={link} className="flex items-center font-bold text-amber-500">
+        <a href={link} className="flex items-center font-bold text-black-900">
           <span className="mr-1 md:text-sm text-base">Learn More</span>
           <FaArrowRight />
         </a>
@@ -61,7 +69,11 @@ const Achievement = ({ image, title, description, link }) => (
 function Achievements() {
   return (
     <div className="flex flex-col m-12 sm:m-1 items-center my-10 sm:my-2">
-      <Text size="mypro" as="p" className=" md:text-[36px] sm:text-[29px] font-medium m-3 text-center">
+      <Text
+        size="mypro"
+        as="p"
+        className=" md:text-[36px] sm:text-[29px] font-medium m-3 text-center"
+      >
         My Achievements
       </Text>
       <Img
