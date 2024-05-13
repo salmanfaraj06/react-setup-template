@@ -11,13 +11,13 @@ function HeroMain() {
         alt="image"
         className="mx-auto h-[200px] w-[160px] md:w-[110px] sm:h-[100px] sm:w-[80px]"
       />
-      <Text size="3xl" as="p" className="mb-4 text-white sm:px-5 text-center md:text-[48px] font-bold sm:text-[36px]">
+      <Text size="3xl" as="p" className="mb-4 text-white sm:px-5 text-center md:text-[48px] font-bold sm:text-[30px]">
         Hi there! My name is{" "}
         <div className="flex-row items-center">
           <span className="whitespace-nowrap">
             <span className="relative inline-block">
               {/* Background color applied to only a portion of the text */}
-              <span className="bg-amber-300 absolute top-12 md:top-7 h-1/3 w-full"></span>
+              <span className="bg-amber-300 absolute top-12 md:top-7 sm:top-5 h-1/3 w-full"></span>
               {/* Original text with reduced opacity to allow background color to show through */}
               <span className="relative z-10 bg-white">
                 {/* Original text */}Rukaiya
@@ -28,7 +28,7 @@ function HeroMain() {
         </div>
       </Text>
 
-      <Text size="md" as="p" className="mb-8 text-white md:text-[24px] sm:text-[20px] sm:px-5">
+      <Text size="md" as="p" className="mb-8 text-white md:text-[24px] sm:text-[17px] sm:px-5">
         Turning great designs into functional realities,
         <br />
         one pixel (and line of code) at a time.
