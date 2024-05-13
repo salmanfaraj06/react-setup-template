@@ -11,7 +11,7 @@ function HeroMain() {
         alt="image"
         className="mx-auto h-[190px] w-[160px] md:w-[100px]"
       />
-      <Text size="3xl" as="p" className="mb-4 text-white text-center md:text-[48px] font-bold sm:text-[36px]">
+      <Text size="3xl" as="p" className="mb-4 text-white sm:px-5 text-center md:text-[48px] font-bold sm:text-[36px]">
         Hi there! My name is{" "}
         <div className="flex-row items-center">
           <span className="whitespace-nowrap">
@@ -28,7 +28,7 @@ function HeroMain() {
         </div>
       </Text>
 
-      <Text size="md" as="p" className="mb-8 text-white md:text-[24px] sm:text-[20px]">
+      <Text size="md" as="p" className="mb-8 text-white md:text-[24px] sm:text-[20px] sm:px-5">
         Turning great designs into functional realities,
         <br />
         one pixel (and line of code) at a time.

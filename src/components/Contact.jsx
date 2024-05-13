@@ -26,7 +26,7 @@ function Contact() {
           <Text
             size="lg"
             as="p"
-            className="mt-4 text-center sm:text-sm md:text-2xl"
+            className="mt-4 px-3 text-center sm:text-[17px] md:text-[22px] "
           >
             Thank you for your interest in my work. If you have any questions or
             comments, please contact{" "}
