@@ -61,7 +61,7 @@ const Achievement = ({ image, title, description, link }) => (
 function Achievements() {
   return (
     <div className="flex flex-col m-12 sm:m-1 items-center my-10 sm:my-2">
-      <Text as="p" className=" text-[48px] md:text-[36px] sm:text-[29px] font-medium m-3 text-center">
+      <Text size="mypro" as="p" className=" md:text-[36px] sm:text-[29px] font-medium m-3 text-center">
         My Achievements
       </Text>
       <Img
