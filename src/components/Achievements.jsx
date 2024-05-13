@@ -32,19 +32,19 @@ const achievementsData = [
 ];
 
 const Achievement = ({ image, title, description, link }) => (
-  <div className="flex flex-row md:flex-col bg-white shadow-lg rounded-xl mb-4 border-8 border-black-900">
+  <div className="flex flex-row md:flex-col bg-white shadow-lg rounded-xl mb-4 border-8 sm:border-4 border-black-900">
     <Img
       src={image}
       alt={title}
-      className="h-auto sm:h-[180px] sm:w-full w-[300px] md:h-[220px]"
+      className="h-auto sm:h-[160px] sm:w-full w-[300px] md:h-[220px]"
       loading="lazy"
     />
     <div className="p-4 flex flex-col justify-between">
       <div>
-        <Text size="lg" as="p" className="mb-2 md:text-lg text-2xl sm:text-[18px] font-medium">
+        <Text size="md" as="p" className="mb-2 md:text-xg text-4xl sm:text-[16px] font-medium">
           {title}
         </Text>
-        <Text size="sm" as="p" className="text-gray-600 mb-4 md:text-base sm:text-sm text-lg">
+        <Text size="sm" as="p" className="text-gray-700 mb-4 md:text-base sm:text-sm text-lg">
           {description}
         </Text>
       </div>
@@ -60,7 +60,7 @@ const Achievement = ({ image, title, description, link }) => (
 
 function Achievements() {
   return (
-    <div className="flex flex-col m-12 items-center my-10">
+    <div className="flex flex-col m-12 sm:m-1 items-center my-10 sm:my-2">
       <Text as="p" className=" text-[48px] md:text-[36px] sm:text-[29px] font-medium m-3 text-center">
         My Achievements
       </Text>
@@ -69,7 +69,7 @@ function Achievements() {
         alt="vector_seven"
         className="h-4 w-1/2 sm:w-full  md:w-1/3 sm:h-2 md:h-3/4"
       />
-      <div className="grid grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-12 mt-6 p-5">
+      <div className="grid grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-12 mt-6 p-5 sm:mt-3 sm:p-3">
         {achievementsData.map((achievement, index) => (
           <Achievement
             key={index}
