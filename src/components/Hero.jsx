@@ -3,6 +3,7 @@ import { Img } from "./Img";
 import { Text } from "./Text";
 import { Heading } from "./Heading";
 import { Button } from "./Button";
+import Socials from "./Socials";
 
 function Hero() {
   return (
@@ -36,31 +37,32 @@ function Hero() {
       {/* Right Column */}
       <div className="flex-1 mx-auto md:mx-7">
         <Img src="images/pink.png" alt="frame_one" className="md:hidden" />
-        <Text size="2xl" className="my-4 relative z-10">
+        <Text size="2xl" className="my-4 md:text-4xl sm:text-2xl">
           <span className="whitespace-nowrap">Hello! I'm </span>
           <span className="relative inline-block z-0">
             Rukaiya
-            <span className="bg-amber-300 absolute inset-0 top-8 h-1/3 w-full z-[-1]"></span>
+            <span className="bg-amber-300 absolute inset-0 top-8 md:top-7 sm:top-4 h-1/3 w-full z-[-1]"></span>
           </span>
         </Text>
 
-        <Text size="xs" className="mb-3 text-justify">
+        <Text size="xs" className="mb-3 text-justify md:text-xl sm:text-lg">
           A passionate UI/UX designer with a knack for creating intuitive and
           visually appealing digital experiences. With a keen eye for detail and
           a love for problem-solving, I thrive on turning complex concepts into
           simple and elegant designs that delight users.
         </Text>
-        <Text size="xs" className="mb-3 text-justify">
+        <Text size="xs" className="mb-3 text-justify md:text-xl sm:text-lg">
           My journey into the world of design began Since then, I've been on a
           mission to continuously hone my craft and stay updated with the latest
           design trends and technologies.
         </Text>
+        <Socials/>
         <div className="flex justify-start items-center my-10">
             <Button
               color="light_blue_100"
               size="md"
               shape="round"
-              className=" border-8 border-solid border-black-900_01 font-bold md:h-[70px] md:px-[50px] md:text-[20px] sm:h-[60px] sm:px-[10px] sm:text-[16px] "
+              className=" border-8 sm:border-4 border-solid border-black-900_01 font-bold md:h-[70px] md:px-[50px] md:text-[20px] sm:h-[50px] sm:px-[10px] sm:text-[16px] "
             >
               Download CV
             </Button>

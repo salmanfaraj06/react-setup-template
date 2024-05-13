@@ -2,6 +2,7 @@ import React from "react";
 import { Img } from "./Img";
 import { Text } from "./Text";
 import { Button } from "./Button";
+import Socials from "./Socials";
 
 function Contact() {
   return (
@@ -33,13 +34,13 @@ function Contact() {
             <span className=" font-extrabold italic">me</span>.
           </Text>
 
-          <div className="flex justify-center items-center my-10 sm:my-5">
+          <div className="flex justify-center items-center mt-10 sm:my-5">
           <a href="mailto:rukaiyanishfan@gmail.com">
             <Button
               color="light_blue_100"
               size="md"
               shape="round"
-              className=" border-8 md:border-4 border-solid border-black-900_01 font-bold md:h-[70px] md:px-[50px] md:text-[20px] sm:h-[40px] sm:px-[10px] sm:text-[14px] "
+              className=" border-8 md:border-4 border-solid ml-12 sm:ml-0 border-black-900_01 font-bold md:h-[70px] md:px-[50px] md:text-[20px] sm:h-[40px] sm:px-[10px] sm:text-[14px] "
             >
               Send a Message
             </Button>
@@ -50,6 +51,7 @@ function Contact() {
               className="mt-10 h-16 w-16 sm:hidden md:w-14 md:h-14 "
             />
           </div>
+          <Socials/>
         </div>
       </div>
     </div>
