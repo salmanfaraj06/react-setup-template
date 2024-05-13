@@ -2,13 +2,11 @@ import React from "react";
 import { Img } from "./Img";
 import { Text } from "./Text";
 import { Button } from "./Button";
-import Socials from "./Socials";
 
 function Contact() {
   return (
     <div
       className="flex flex-col items-end my-[100px] sm:items-end"
-      id="contact"
     >
       <Img
         src="images/img_vector_pink_100.svg"
@@ -16,7 +14,7 @@ function Contact() {
         className="z-[1] h-[110px] w-[20%] sm:w-[30%] md:w-[20%] mr-12"
       />
       <div className="mt-[-63px] flex w-[75%] justify-center self-center rounded-sm border-[6px] border-solid border-black-900_01 bg-white-A700_01 p-2 shadow-sm sm:p-4 md:justify-center">
-        <div className="mt-[29px] flex w-[90%] flex-col items-center md:w-full">
+        <div className="mt-[29px] flex w-[90%] flex-col items-center md:w-full" id="contact">
           <Text
             size="2xl"
             as="p"
