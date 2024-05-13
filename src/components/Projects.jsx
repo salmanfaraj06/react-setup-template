@@ -5,25 +5,31 @@ import ProjectsArea from "./ProjectsArea";
 
 const data = [
   {
-    portfolio: "images/img_rectangle_6.png",
+    portfolio: "images/thumbnails/beepure.png",
     title: "Portfolio design",
     description: "UI design - User research - webflow develop",
     link: "#",
   },
   {
-    portfolio: "images/img_rectangle_6.png",
+    portfolio: "images/thumbnails/moveMate.png",
     title: "Portfolio design",
     description: "UI design - User research - webflow develop",
     link: "#",
   },
   {
-    portfolio: "images/img_rectangle_6.png",
+    portfolio: "images/thumbnails/Rescufy.png",
     title: "Portfolio design",
     description: "UI design - User research - webflow develop",
     link: "#",
   },
   {
-    portfolio: "images/img_rectangle_6.png",
+    portfolio: "images/thumbnails/ticketMate.png",
+    title: "Portfolio design",
+    description: "UI design - User research - host develop lorem10 efwugwuhwg ",
+    link: "#",
+  },
+  {
+    portfolio: "images/thumbnails/spaceOdessey.png",
     title: "Portfolio design",
     description: "UI design - User research - host develop lorem10 efwugwuhwg ",
     link: "#",

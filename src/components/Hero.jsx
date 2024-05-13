@@ -4,6 +4,7 @@ import { Text } from "./Text";
 import { Heading } from "./Heading";
 import { Button } from "./Button";
 import Socials from "./Socials";
+import Rukaiya_CV from "../assets/rukinishCV.pdf";
 
 function Hero() {
   return (
@@ -62,9 +63,11 @@ function Hero() {
             color="light_blue_100"
             size="md"
             shape="round"
-            className=" border-8 sm:border-4 border-solid border-black-900_01 font-bold md:h-[70px] md:px-[50px] md:text-[20px] sm:h-[50px] sm:px-[10px] sm:text-[16px] "
+            className="border-8 sm:border-4 border-solid border-black-900_01 font-bold md:h-[70px] md:px-[50px] md:text-[20px] sm:h-[50px] sm:px-[10px] sm:text-[16px]"
           >
-            Download CV
+            <a href={Rukaiya_CV} download="rukaiya-resume.pdf">
+              Download CV
+            </a>{" "}
           </Button>
           <Img
             src="images/img_clock.svg"
