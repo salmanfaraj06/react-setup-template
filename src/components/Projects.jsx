@@ -9,9 +9,9 @@ const data = [
     portfolio: "images/thumbnails/movematee.png",
     title: "moveMate",
     description:
-      "A case study on the mobile application 'moveMate'" +
-      "\n moveMate is a gamified solution designed to transform stroke recovery into an engaging and empowering journey." +
-      "\n Also avaiable as a web application",
+      "A case study on the mobile application 'moveMate'." + "<br />" +
+      "moveMate is a gamified solution designed to transform stroke recovery into an engaging and empowering journey." + "<br />" +
+      "Also avaiable as a web application.",
     link: "https://www.behance.net/gallery/198496933/moveMate",
   },
   {
