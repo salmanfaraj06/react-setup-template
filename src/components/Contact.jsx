@@ -6,7 +6,7 @@ import { Button } from "./Button";
 function Contact() {
   return (
     <div
-      className="flex flex-col items-end my-[100px] sm:items-end"
+      className="flex flex-col items-end my-[100px] sm:items-end mx-auto"
     >
       <Img
         src="images/img_vector_pink_100.svg"

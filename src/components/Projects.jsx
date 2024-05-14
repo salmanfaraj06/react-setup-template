@@ -57,10 +57,10 @@ function Projects() {
           My Projects
         </Text>
         <Img
-          src="images/img_vector_black_900_01.svg"
-          alt="vector_seven"
-          className="h-4 w-full"
-        />
+        src="images/img_vector_black_900_01.svg"
+        alt="vector_seven"
+        className="h-4 sm:w-full md:w-full md:h-2 "
+      />
       </div>
 
       <div className="grid grid-cols-2 gap-12 md:grid-cols-1 md:gap-10 gap-x-19">

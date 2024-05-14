@@ -5,7 +5,7 @@ import Socials from "./Socials";
 
 function Footer() {
   return (
-    <footer className="flex flex-col items-center gap-[83px] self-stretch md:gap-[62px] sm:gap-[41px]">
+    <footer className="flex flex-col items-center gap-[53px] self-stretch md:gap-[62px] sm:gap-[41px]">
       <div className="h-[6px] w-full self-stretch bg-black-900_01" />
       <div className="mx-auto flex w-full max-w-[1253px] items-center justify-between gap-5 md:flex-col md:p-5">
         <div className="flex">
