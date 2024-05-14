@@ -58,7 +58,7 @@ function Hero() {
           design trends and technologies.
         </Text>
         <Socials />
-        <div className="flex justify-start items-center my-10">
+        <div className="flex justify-start my-10">
           <Button
             color="light_blue_100"
             size="md"
