@@ -30,7 +30,7 @@ function Hero() {
           <Img
             src="images/hero-frame.png"
             alt="image_one"
-            className=" h-[540px] w-[500px]"
+            className=" h-[540px] w-[500px] sm:h-[380px] sm:w-[340px] md:h-[500px] md:w-[400px] lg:h-[400px] lg:w-[500px]"
           />
         </div>
       </div>

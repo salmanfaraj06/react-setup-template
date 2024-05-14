@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Img } from "./Img";
 import { Text } from "./Text";
 import { Button } from "./Button";
@@ -47,7 +48,7 @@ function HeroMain() {
           shape="round"
           className="w-[290px] border-8 border-solid sm:border-4 ml-7 border-black-900_01 font-bold md:h-[70px] md:px-[10px] md:text-[20px] md:w-[180px] sm:h-[60px]  sm:text-[16px]"
         >
-          Read More
+          <Link to="/about">Read More</Link>
         </Button>
         <LazyLoad height={100} offset={100}>
           <Img
