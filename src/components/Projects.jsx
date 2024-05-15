@@ -10,7 +10,7 @@ const data = [
     title: "moveMate",
     description: [
       "moveMate - Mobile App               ",
-      " Also avaiable as a web application.",
+      "                       Also available as a web application.",
     ],
     link: "https://www.behance.net/gallery/198496933/moveMate",
   },
